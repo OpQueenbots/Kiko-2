@@ -108,70 +108,74 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-HELP_MSG = "Click The Button Below To Get Help Menu In Your Dm."
+HELP_MSG = "𝗖𝗼𝗻𝘁𝗮𝗰𝘁 𝗺𝗲 𝗶𝗻 𝗣𝗠 𝗳𝗼𝗿 𝗵𝗲𝗹𝗽!"
 START_MSG = "I'm Awake Already!\n<b>Haven't Slept Since:</b> <code>{}</code>"
 
 NEKO_STICKERS = (
-    "CAACAgUAAxkBAAIIW2NL5v9F9hUom4xmsgNYb63SEfZZAAIZBgACYAF5VIerYoMcSln8KgQ",
-    "CAACAgUAAxkBAAIIT2NL5tVmdAO3n1o3cp9Jic9LkqJvAAK7AgACoU3RVLpdwYfQPmS9KgQ",
-    "CAACAgUAAxkBAAIIUGNL5tVNd0rwdoMv-uDVcZ3hHgwlAAIwAwACP9jQVMv2AfU-DvBfKgQ",
-    "CAACAgUAAxkBAAIIUmNL5tUzCtvS5E-XR8h3tFMSqVu7AAIGAwACNZnYVOTUhlBiHTQGKgQ",
-    "CAACAgUAAxkBAAIIUWNL5tVBEQAB2gWLSq0ymEPeAj5kmQAC3QEAAuu92VSPj3UkCiNvfioE",
+    "CAACAgEAAxkBAAIRNWOhnFwnM8F4zmqby24_Yee3O82lAAJeBgACkKvgRB5XJtQFqsOWLAQ",
+    "CAACAgEAAxkBAAIRNWOhnFwnM8F4zmqby24_Yee3O82lAAJeBgACkKvgRB5XJtQFqsOWLAQ",
+    "CAACAgEAAxkBAAIRNWOhnFwnM8F4zmqby24_Yee3O82lAAJeBgACkKvgRB5XJtQFqsOWLAQ",
+    "CAACAgEAAxkBAAIRNWOhnFwnM8F4zmqby24_Yee3O82lAAJeBgACkKvgRB5XJtQFqsOWLAQ",
+    "CAACAgEAAxkBAAIRNWOhnFwnM8F4zmqby24_Yee3O82lAAJeBgACkKvgRB5XJtQFqsOWLAQ",
 )
 
 PM_START_TEXT = """
-────「 [{}](https://telegra.ph/file/9996ec2eafdef4692102d.jpg) 」────
-*Hola! {},*
-*Meow Meow, Don't Touch Me Without My Permission!*
+  ━━━━[{}](https://te.legra.ph/file/f455ad70788ebcd93a709.jpg)━━━━
+*𝙃𝙚𝙡𝙡𝙤🥀! {},*
+*𝗜 𝗔𝗺 𝗮 𝗣𝗼𝘄𝗲𝗿𝗳𝘂𝗹 𝗚𝗿𝗼𝘂𝗽 𝗠𝗮𝗻𝗮𝗴𝗲𝗺𝗲𝗻𝘁 𝗯𝗼𝘁 𝗼𝗳 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺!*
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
-❍ *Uptime:* `{}`
-❍ `{}` *Users, Across* `{}` *Chats.*
+𖠁 *𝗨𝗽𝘁𝗶𝗺𝗲:* `{}`
+𖠁 `{}` *𝗨𝘀𝗲𝗿𝘀, 𝗔𝗰𝗿𝗼𝘀𝘀* `{}` *𝗖𝗵𝗮𝘁𝘀.*
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
-➛ Try The Guidelines Button Below To Know My Abilities ××
+➛ 𝗛𝗶𝘁 𝗵𝗲𝗹𝗽 𝘁𝗼 𝗸𝗻𝗼𝘄 𝗔𝗯𝗼𝘂𝘁 𝗺𝘆 𝗣𝗼𝘄𝗲𝗿𝘀🤞!
+  ━━━━𝗞𝗜𝗞𝗢 𝗥𝗢𝗕𝗢𝗧━━━━          
+      °°°°°°°°°°°°°
 """
+
 
 buttons = [
     [
         InlineKeyboardButton(
-            text=f"Add {BOT_NAME} To Your Group",
+            text=f"➕ 𝘼𝙙𝙙 𝙢𝙚 𝙩𝙤 𝙮𝙤𝙪𝙧 𝙂𝙧𝙤𝙪𝙥 ➕",
             url=f"https://telegram.dog/{BOT_USERNAME}?startgroup=true",
         )
     ],
     [
-        InlineKeyboardButton(text="📓 Guidelines", callback_data="help_back"),
+        InlineKeyboardButton(text="❰ 𝗛𝗲𝗹𝗽 ❱", callback_data="help_back"),
         InlineKeyboardButton(
-            text="Source 🌐", url="https://github.com/Awesome-Prince/NekoRobot-3.git"
+            text="❰ 𝗡𝗲𝘁𝘄𝗼𝗿𝗸 ❱", url="https://t.me/WorldChattingFriendsWCF"
         ),
     ],
     [
         InlineKeyboardButton(
-            text="🚑 Support", url=f"https://telegram.dog/{SUPPORT_CHAT}"
+            text="❰ 𝗦𝘂𝗽𝗽𝗼𝗿𝘁 ❱", url=f"https://telegram.dog/{SUPPORT_CHAT}"
         ),
         InlineKeyboardButton(
-            text="📢 Updates", url="https://telegram.dog/Programmer_Updates"
+            text="❰ 𝗨𝗽𝗱𝗮𝘁𝗲𝘀 ❱", url="https://t.me/WCFnetwork"
         ),
     ],
 ]
 
 HELP_STRINGS = """
-*Main* commands available:
-➛ /help: PM's you this message.
-➛ /help <module name>: PM's you info about that module.
-➛ /donate: information on how to donate!
-➛ /settings:
-   ➛ in PM: will send you your settings for all supported modules.
-   ➛ in a group: will redirect you to pm, with all that chat's settings.
+
+  ━━━━━━━━━━━━━━━━━━━
+    𝗠𝗮𝗻𝗮𝗴𝗲𝗺𝗲𝗻𝘁 𝗙𝘂𝗻𝗰𝘁𝗶𝗼𝗻𝘀  
+  ━━━━━━━━━━━━━━━━━━━
+
+
 """
 
+
+
 GROUP_START_IMG = (
-    "https://te.legra.ph/file/5f272dc498e4cf91faf92.jpg",
-    "https://te.legra.ph/file/9d8190aba9ac3421af488.jpg",
-    "https://te.legra.ph/file/5b1ce336f0c0216224040.jpg",
-    "https://te.legra.ph/file/f1f67047d973f3aea4004.jpg",
-    "https://te.legra.ph/file/c2526c05d65fd2fbfa58b.jpg",
+    "https://te.legra.ph/file/8dda1857984b81cf2beba.jpg",
+    "https://te.legra.ph/file/8dda1857984b81cf2beba.jpg",
+    "https://te.legra.ph/file/8dda1857984b81cf2beba.jpg",
+    "https://te.legra.ph/file/8dda1857984b81cf2beba.jpg",
+    "https://te.legra.ph/file/8dda1857984b81cf2beba.jpg",
 )
 
-DONATE_STRING = """❂ I'm Free for Everyone ❂"""
+DONATE_STRING = """❂ 𝗗𝗼𝗻𝗮𝘁𝗲 [𝗛𝗲𝗿𝗲](https://t.me/Tera_Bf_hu_me) 𝗶𝗳 𝘆𝗼𝘂 𝘄𝗮𝗻𝘁 𝘁𝗼 𝗗𝗼𝗻𝗮𝘁𝗲. ❂"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -302,18 +306,18 @@ def start(update: Update, context: CallbackContext):
     else:
         update.effective_message.reply_photo(
             random.choice(GROUP_START_IMG),
-            caption=f"<b>Yes, Master I'm alive!\nHaven't sleep since</b>: <code>{uptime}</code>",
+            caption=f"<b>𝗬𝗲𝘀 𝗠𝗮𝘀𝘁𝗲𝗿, 𝗜'𝗺 𝗔𝗹𝗶𝘃𝗲!\n𝗛𝗮𝘃𝗲𝗻'𝘁 𝗦𝗹𝗲𝗲𝗽 𝗦𝗶𝗻𝗰𝗲</b>: <code>{uptime}</code>",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
                         InlineKeyboardButton(
-                            text="🚑 Support",
+                            text="❰ 𝗦𝘂𝗽𝗽𝗼𝗿𝘁 ❱",
                             url=f"https://telegram.dog/{SUPPORT_CHAT}",
                         ),
                         InlineKeyboardButton(
-                            text="📢 Updates",
-                            url="https://telegram.dog/Programmer_Updates",
+                            text="❰ 𝗨𝗽𝗱𝗮𝘁𝗲𝘀 ❱",
+                            url="https://telegram.dog/WCFnetwork",
                         ),
                     ]
                 ]
@@ -389,7 +393,7 @@ def help_button(update: Update, context: CallbackContext) -> None:
                                 text="[► Back ◄]", callback_data="help_back"
                             ),
                             InlineKeyboardButton(
-                                text="[► Support ◄]", url=f"https://t.me/{SUPPORT_CHAT}"
+                                text="❰ 𝗦𝘂𝗽𝗽𝗼𝗿𝘁 ❱", url=f"https://t.me/WorldChattingFriendsWCF"
                             ),
                         ]
                     ]
@@ -473,7 +477,7 @@ def get_help(update: Update, context: CallbackContext) -> None:
                 [
                     [
                         InlineKeyboardButton(
-                            text="Open In Private Chat",
+                            text="𝗢𝗽𝗲𝗻 𝗶𝗻 𝗣𝗿𝗮𝗶𝘃𝘁𝗲 𝗖𝗵𝗮𝘁",
                             url=f"t.me/{NEKO_PTB.bot.username}?start=help",
                         )
                     ]
@@ -677,11 +681,11 @@ def donate(update: Update, context: CallbackContext) -> None:
                     [
                         [
                             InlineKeyboardButton(
-                                text="📢 Updates",
-                                url="https://telegram.dog/Programmer_Updates",
+                                text="❰ 𝗨𝗽𝗱𝗮𝘁𝗲𝘀 ❱",
+                                url="https://t.me/WCFnetwork",
                             ),
                             InlineKeyboardButton(
-                                text="🚑 Support",
+                                text="❰ 𝗦𝘂𝗽𝗽𝗼𝗿𝘁 ❱",
                                 url=f"https://telegram.dog/{SUPPORT_CHAT}",
                             ),
                         ]
