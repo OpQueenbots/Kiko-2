@@ -46,7 +46,7 @@ async def paste(content):
 async def inline_help_func(__HELP__):
     buttons = InlineKeyboard(row_width=2)
     buttons.add(
-        InlineKeyboardButton("More Help", url=f"t.me/NekoCuteBot?start=start"),
+        InlineKeyboardButton("More Help", url=f"t.me/KikoManagement_Robot?start=start"),
         InlineKeyboardButton("Go Inline", switch_inline_query_current_chat=""),
     )
     answerss = [
@@ -54,7 +54,7 @@ async def inline_help_func(__HELP__):
             title="Inline Commands",
             description="Help Related To Inline Usage.",
             input_message_content=InputTextMessageContent(__HELP__),
-            thumb_url="https://telegra.ph/file/0bf1b29555518a0d45948.jpg",
+            thumb_url="https://te.legra.ph/file/f455ad70788ebcd93a709.jpg",
             reply_markup=buttons,
         )
     ]
@@ -67,26 +67,26 @@ async def alive_function(answers):
     bot_state = "Dead" if not await app.get_me() else "Alive"
     # ubot_state = 'Dead' if not await app2.get_me() else 'Alive'
     buttons.add(
-        InlineKeyboardButton("Main Bot", url="https://t.me/NekoCuteBot"),
+        InlineKeyboardButton("Main Bot", url="https://t.me/KikoManagement_Robot"),
         InlineKeyboardButton("Go Inline", switch_inline_query_current_chat=""),
     )
 
     msg = f"""
-**[Neko X](https://t.me/NekoCuteBot):**
+**[Kiko-Robot](https://t.me/KikoManagement_Robot):**
 **MainBot:** `{bot_state}`
 **UserBot:** `Alive`
 **Python:** `3.9`
 **Pyrogram:** `{pyrover}`
 **Platform:** `{sys.platform}`
-**Profiles:** [BOT](t.me/NekoCuteBot) | [OWNER](t.me/DarlingPrince)
+**Profiles:** [BOT](t.me/KikoManagement_Robot) | [OWNER](t.me/Tera_Bf_hu_me)
 """
 
     answers.append(
         InlineQueryResultPhoto(
             title="Alive",
             description="Check Bot's Stats",
-            thumb_url="https://telegra.ph/file/0bf1b29555518a0d45948.jpg",
-            photo_url="https://telegra.ph/file/0bf1b29555518a0d45948.jpg",
+            thumb_url="https://te.legra.ph/file/8dda1857984b81cf2beba.jpg",
+            photo_url="https://te.legra.ph/file/8dda1857984b81cf2beba.jpg",
             caption=msg,
             reply_markup=buttons,
         )
