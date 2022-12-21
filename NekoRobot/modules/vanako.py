@@ -33,10 +33,10 @@ PHOTO = "https://te.legra.ph/file/5cdc460a2ed69abcbee60.gif"
 
 @register(pattern=("Welcome"))
 async def awake(event):
-    NEKO = f" ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴏᴜʀ ᴋɪɴɢᴅᴏᴍ♡︎ ɪ ʜᴏᴘᴇ ʏᴏᴜ ᴄᴀɴ ɢᴇᴛ ᴍᴀɴʏ ғʀɪᴇɴᴅs ɪɴ ᴛʜɪs ɢʀᴏᴜᴘ"
+    NEKO = f" 𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝘁𝗼 𝗢𝘂𝗿 𝗚𝗿𝗼𝘂𝗽. 𝗜 𝗛𝗼𝗽𝗲 𝗬𝗼𝘂 𝗰𝗮𝗻 𝗚𝗲𝘁 𝗠𝗮𝗻𝘆 𝗙𝗿𝗶𝗲𝗻𝗱𝘀 𝗶𝗻 𝘁𝗵𝗶𝘀 𝗚𝗿𝗼𝘂𝗽 "
     BUTTON = [
         [
-            Button.url("Meet Me Here🎀", "https://telegram.dog/Besties_XD"),
+            Button.url("😍 𝗠𝗲𝗲𝘁 𝗺𝗲 𝗛𝗲𝗿𝗲 😍", "https://t.me/WorldChattingFriendsWCF"),
         ]
     ]
     await tbot.send_file(event.chat_id, PHOTO, caption=NEKO, buttons=BUTTON)
