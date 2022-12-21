@@ -28,29 +28,29 @@ from telethon import Button
 from NekoRobot import tbot
 from NekoRobot.events import register
 
-PHOTO = "https://telegra.ph/file/70061cba45ee824dad6f6.jpg"
+PHOTO = "https://te.legra.ph/file/f455ad70788ebcd93a709.jpg"
 
 
 @register(pattern=("/repo"))
 async def awake(event):
     NEKO = """
-         We Are So Happy To Announce That We Have Public Our NekoRobot Repo. ✨🥀
-➖➖➖➖➖➖➖➖➖➖➖➖➖
-「@NekoCuteBot」
-➖➖➖➖➖➖➖➖➖➖➖➖➖
-Here is the Repo Deploy your Own NekoRobot.
-⚜️Repo ➤ https://github.com/Awesome-Prince/NekoRobot-3.git
-➖➖➖➖➖➖➖➖➖➖➖➖➖
-🔰 Thanks for your support 
-It's Fully stable Repo so you can deploy and make own Bot.
-──────────────────
-Powered By:- @Besties_XD
+━━━━━━━━𝗞𝗜𝗞𝗢 𝗥𝗢𝗕𝗢𝗧━━━━━━━━
+  👨‍💻 𝗞𝗜𝗞𝗢 𝗥𝗢𝗕𝗢𝗧 𝗦𝗢𝗨𝗥𝗖𝗘 👨‍💻
+
+𝗛𝗘𝗥𝗘 𝗜𝗦 𝗧𝗛𝗘 𝗦𝗢𝗨𝗥𝗖𝗘 𝗖𝗢𝗗𝗘 𝗢𝗙
+[𝗞𝗜𝗞𝗢 𝗥𝗢𝗕𝗢𝗧](https://t.me/KikoManagement_Robot) 𝗪𝗛𝗜𝗖𝗛 𝗛𝗘𝗟𝗣𝗦
+[𝗞𝗜𝗞𝗢 𝗥𝗢𝗕𝗢𝗧](https://t.me/KikoManagement_Robot) 𝗙𝗢𝗥 𝗙𝗨𝗡𝗖𝗧𝗜𝗢𝗡𝗜𝗡𝗚
+𝗣𝗥𝗢𝗣𝗘𝗥𝗟𝗬 𝗔𝗡𝗗 𝗘𝗙𝗙𝗘𝗖𝗧𝗜𝗩𝗘𝗟𝗬
+
+━━━━━━━━𝗞𝗜𝗞𝗢 𝗥𝗢𝗕𝗢𝗧━━━━━━━━
+Powered By:- @WCFnetwork
+
 """
 
     BUTTON = [
         [
-            Button.url("📢 Repository", "https://github.com/Awesome-Prince/NekoRobot-3"),
-            Button.url("💻 Collaborators", "https://telegra.ph/Neko-X-05-23"),
+            Button.url(" 𝗦𝗼𝘂𝗿𝗰𝗲 ", "https://t.me/Tera_Bf_hu_me"),
+            Button.url(" 𝗦𝘂𝗽𝗽𝗼𝗿𝘁 ", "https://t.me/Kiko_Support"),
         ]
     ]
     await tbot.send_file(event.chat_id, PHOTO, caption=NEKO, buttons=BUTTON)
