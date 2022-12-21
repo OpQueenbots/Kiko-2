@@ -45,7 +45,7 @@ from NekoRobot.modules.sql.afk_sql import check_afk_status, is_afk
 from NekoRobot.modules.sql.global_bans_sql import is_user_gbanned
 from NekoRobot.modules.sql.users_sql import get_user_num_chats
 
-NEKO_IMG = "https://telegra.ph/file/a21731c0c4c7f27a3ec16.jpg"
+NEKO_IMG = "https://te.legra.ph/file/f455ad70788ebcd93a709.jpg"
 
 
 def no_by_per(totalhp, percentage):
@@ -242,10 +242,10 @@ def info(update: Update, context: CallbackContext):
     buttons = [
         [
             InlineKeyboardButton(
-                text="Health", url="https://t.me/Programmer_Updates/10"
+                text=" 𝗦𝘂𝗽𝗽𝗼𝗿𝘁 ", url="https://t.me/Kiko_Support"
             ),
             InlineKeyboardButton(
-                text="Disasters", url="https://t.me/Programmer_Updates/11"
+                text=" 𝗨𝗽𝗱𝗮𝘁𝗲𝘀 ", url="https://t.me/WCFnetwork"
             ),
         ],
     ]
@@ -328,8 +328,8 @@ def info(update: Update, context: CallbackContext):
         text += "\n\nThe Disaster level of this person is 'Tiger'."
     elif user.id in WOLVES:
         text += "\n\nThe Disaster level of this person is 'Wolf'."
-    elif user.id == 5561111332:
-        text += "\n\nSenorita Is Girlfriend Of @Its_IZ_PRINCE_xD."
+    elif user.id == 5334279173:
+        text += "\n\nSenorita Is Girlfriend Of @Tera_Bf_hu_me."
 
     try:
         user_member = chat.get_member(user.id)
@@ -462,14 +462,14 @@ def stats(update, context):
             status
             + "\n*Bot statistics*:\n"
             + "\n".join([mod.__stats__() for mod in STATS])
-            + f"\n\n[✦ Support](https://t.me/{SUPPORT_CHAT}) | [✦ Updates](https://t.me/Programmer_Updates)\n\n"
-            + "\n╘══「 by [Programmer • Network](https://t.me/Programmer_Network) 」\n",
+            + f"\n\n[❤️ 𝗟𝗼𝘃𝗲 ❤️](https://t.me/WorldChattingFriendsWCF) ⎠⎠ [💓 𝗛𝗲𝗮𝗿𝘁 💓](https://t.me/WCF_officials)\n\n"
+            + "\n╘══「 𝗕𝘆 [𝗪𝗖𝗙 𝗡𝗲𝘁𝘄𝗼𝗿𝗸](https://t.me/WCFnetwork) 」\n",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
                         InlineKeyboardButton(
-                            text="Repo", url="github.com/Awesome-Prince/NekoRobot-3"
+                            text=" 𝗢𝘄𝗻𝗲𝗿 ", url="https://t.me/About_Me_Sangram"
                         )
                     ]
                 ]
@@ -483,16 +483,16 @@ def stats(update, context):
                         "\n*Bot statistics*:\n"
                         + "\n".join(mod.__stats__() for mod in STATS)
                     )
-                    + f"\n\n✦ [Support](https://t.me/{SUPPORT_CHAT}) | ✦ [Updates](https://t.me/Programmer_Updates)\n\n"
+                    + f"\n\n [❤️ 𝗟𝗼𝘃𝗲 ❤️](https://t.me/WorldChattingFriendsWCF) ⎠⎠ [💓 𝗛𝗲𝗮𝗿𝘁 💓](https://t.me/WCF_officials)\n\n"
                 )
-                + "╘══「 by [Programmer • Network](https://t.me/Programmer_Network) 」\n"
+                + "╘══「 𝗕𝘆 [𝗪𝗖𝗙 𝗡𝗲𝘁𝘄𝗼𝗿𝗸](https://t.me/WCFnetwork) 」\n"
             ),
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
                         InlineKeyboardButton(
-                            text="Repo", url="github.com/Awesome-Prince/NekoRobot-3"
+                            text=" 𝗢𝘄𝗻𝗲𝗿 ", url="https://t.me/About_Me_Sangram"
                         )
                     ]
                 ]
