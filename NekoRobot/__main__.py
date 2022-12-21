@@ -112,23 +112,24 @@ HELP_MSG = "𝗖𝗼𝗻𝘁𝗮𝗰𝘁 𝗺𝗲 𝗶𝗻 𝗣𝗠 𝗳𝗼𝗿
 START_MSG = "I'm Awake Already!\n<b>Haven't Slept Since:</b> <code>{}</code>"
 
 NEKO_STICKERS = (
-    "CAACAgEAAxkBAAIRNWOhnFwnM8F4zmqby24_Yee3O82lAAJeBgACkKvgRB5XJtQFqsOWLAQ",
-    "CAACAgEAAxkBAAIRNWOhnFwnM8F4zmqby24_Yee3O82lAAJeBgACkKvgRB5XJtQFqsOWLAQ",
-    "CAACAgEAAxkBAAIRNWOhnFwnM8F4zmqby24_Yee3O82lAAJeBgACkKvgRB5XJtQFqsOWLAQ",
-    "CAACAgEAAxkBAAIRNWOhnFwnM8F4zmqby24_Yee3O82lAAJeBgACkKvgRB5XJtQFqsOWLAQ",
-    "CAACAgEAAxkBAAIRNWOhnFwnM8F4zmqby24_Yee3O82lAAJeBgACkKvgRB5XJtQFqsOWLAQ",
+    "CAACAgEAAxkBAAIRgGOibbRbRAct8khFM6jkerC3QY21AAJeBgACkKvgRB5XJtQFqsOWLAQ",
+    "CAACAgEAAxkBAAIRgGOibbRbRAct8khFM6jkerC3QY21AAJeBgACkKvgRB5XJtQFqsOWLAQ",
+    "CAACAgEAAxkBAAIRgGOibbRbRAct8khFM6jkerC3QY21AAJeBgACkKvgRB5XJtQFqsOWLAQ",
+    "CAACAgEAAxkBAAIRgGOibbRbRAct8khFM6jkerC3QY21AAJeBgACkKvgRB5XJtQFqsOWLAQ",
+    "CAACAgEAAxkBAAIRgGOibbRbRAct8khFM6jkerC3QY21AAJeBgACkKvgRB5XJtQFqsOWLAQ",
 )
 
 PM_START_TEXT = """
   ━━━━[{}](https://te.legra.ph/file/f455ad70788ebcd93a709.jpg)━━━━
-*𝙃𝙚𝙡𝙡𝙤🥀! {},*
+*𝙃𝙚𝙡𝙡𝙤🥀! {},* 
+ ━━━━━𝗞𝗜𝗞𝗢 𝗥𝗢𝗕𝗢𝗧━━━━━
 *𝗜 𝗔𝗺 𝗮 𝗣𝗼𝘄𝗲𝗿𝗳𝘂𝗹 𝗚𝗿𝗼𝘂𝗽 𝗠𝗮𝗻𝗮𝗴𝗲𝗺𝗲𝗻𝘁 𝗯𝗼𝘁 𝗼𝗳 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺!*
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
 𖠁 *𝗨𝗽𝘁𝗶𝗺𝗲:* `{}`
 𖠁 `{}` *𝗨𝘀𝗲𝗿𝘀, 𝗔𝗰𝗿𝗼𝘀𝘀* `{}` *𝗖𝗵𝗮𝘁𝘀.*
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
 ➛ 𝗛𝗶𝘁 𝗵𝗲𝗹𝗽 𝘁𝗼 𝗸𝗻𝗼𝘄 𝗔𝗯𝗼𝘂𝘁 𝗺𝘆 𝗣𝗼𝘄𝗲𝗿𝘀🤞!
-  ━━━━𝗞𝗜𝗞𝗢 𝗥𝗢𝗕𝗢𝗧━━━━          
+ ━━━━━𝗞𝗜𝗞𝗢 𝗥𝗢𝗕𝗢𝗧━━━━━          
       °°°°°°°°°°°°°
 """
 
