@@ -143,6 +143,8 @@ buttons = [
     ],
     [
         InlineKeyboardButton(text="❰ 𝗛𝗲𝗹𝗽 ❱", callback_data="help_back"),
+    ],
+    [
         InlineKeyboardButton(
             text="❰ 𝗡𝗲𝘁𝘄𝗼𝗿𝗸 ❱", url="https://t.me/WorldChattingFriendsWCF"
         ),
