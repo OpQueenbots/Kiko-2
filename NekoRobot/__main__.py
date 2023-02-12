@@ -123,39 +123,37 @@ PM_START_TEXT = """
 
 
  ━━━━━𝗞𝗜𝗞𝗢 𝗥𝗢𝗕𝗢𝗧━━━━━
-*𝗜 𝗔𝗺 𝗮 𝗣𝗼𝘄𝗲𝗿𝗳𝘂𝗹 𝗚𝗿𝗼𝘂𝗽 𝗠𝗮𝗻𝗮𝗴𝗲𝗺𝗲𝗻𝘁 𝗯𝗼𝘁 𝗼𝗳 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺!*
-➖➖➖➖➖➖➖➖➖➖➖➖➖
-𖠁 *𝗨𝗽𝘁𝗶𝗺𝗲:* `{}`
-𖠁 `{}` *𝗨𝘀𝗲𝗿𝘀, 𝗔𝗰𝗿𝗼𝘀𝘀* `{}` *𝗖𝗵𝗮𝘁𝘀.*
-➖➖➖➖➖➖➖➖➖➖➖➖➖
-➛ 𝗛𝗶𝘁 𝗵𝗲𝗹𝗽 𝘁𝗼 𝗸𝗻𝗼𝘄 𝗔𝗯𝗼𝘂𝘁 𝗺𝘆 𝗣𝗼𝘄𝗲𝗿𝘀🤞!
- ━━━━━𝗞𝗜𝗞𝗢 𝗥𝗢𝗕𝗢𝗧━━━━━          
-      °°°°°°°°°°°°°
+*This is an animated themed*
+    group management bot 
+which can help you to manage 
+    and secure your group 
+ with huge group management 
+plugins like: Filters , Notes ,
+Welcome , Good Bye , Banning
+   Muting and many more. 
+ ━━━━━𝗞𝗜𝗞𝗢 𝗥𝗢𝗕𝗢𝗧━━━━━
+
 """
 
 
 buttons = [
     [
         InlineKeyboardButton(
-            text=f"➕ 𝘼𝙙𝙙 𝙢𝙚 𝙩𝙤 𝙮𝙤𝙪𝙧 𝙂𝙧𝙤𝙪𝙥 ➕",
+            text=f"➕ Add me to your Group ➕",
             url=f"https://telegram.dog/{BOT_USERNAME}?startgroup=true",
         )
     ],
     [
-        InlineKeyboardButton(text="❰ 𝗛𝗲𝗹𝗽 ❱", callback_data="help_back"),
+        InlineKeyboardButton(text="Support", url=f"https://telegram.dog/{SUPPORT_CHAT}").
     ],
     [
         InlineKeyboardButton(
-            text="❰ 𝗡𝗲𝘁𝘄𝗼𝗿𝗸 ❱", url="https://t.me/WorldChattingFriendsWCF"
+            text="Updates", url="https://t.me/WCFnetwork"
         ),
     ],
     [
         InlineKeyboardButton(
-            text="❰ 𝗦𝘂𝗽𝗽𝗼𝗿𝘁 ❱", url=f"https://telegram.dog/{SUPPORT_CHAT}"
-        ),
-        InlineKeyboardButton(
-            text="❰ 𝗨𝗽𝗱𝗮𝘁𝗲𝘀 ❱", url="https://t.me/WCFnetwork"
-        ),
+            text="➕ All Commands ➕", callback_data="help_back"),
     ],
 ]
 
